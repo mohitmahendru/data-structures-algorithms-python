@@ -17,7 +17,7 @@ to use min element from left subtree. You will remove lines marked with ---> and
             elif self.left is None:
                 return self.right
             elif self.right is None:
-                return self.right
+                return self.left
 
           --->  min_val = self.right.find_min()
           --->  self.data = min_val
